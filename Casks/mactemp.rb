@@ -8,6 +8,7 @@ cask "mactemp" do
   homepage "https://github.com/rkoh46/mactemp"
 
   livecheck do
+    url "https://github.com/rkoh46/mactemp/releases/latest"
     strategy :github_latest
   end
 
