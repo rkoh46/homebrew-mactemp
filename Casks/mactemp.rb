@@ -17,6 +17,9 @@ cask "mactemp" do
 
   app "MacTemp.app"
 
-  uninstall quit: "local.mactemp"
+  uninstall quit: "local.mactemp",
+            privileged_helper_tool: "local.mactemp.helper"
+
+  zap trash: "~/Library/Preferences/local.mactemp.plist"
 
 end
