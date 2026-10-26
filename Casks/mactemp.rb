@@ -1,6 +1,6 @@
 cask "mactemp" do
   version "1.7.5"
-  sha256 "517f57cd8c1ec13d03318d7714e173581b9659bd9aea56311473f8f86ca44cb1"
+  sha256 "1b6d2dee2ec43de1c0e2e10960b657bbf2b55e1c2c1c88be2f918fd8231ed70a"
 
   url "https://github.com/rkoh46/mactemp/releases/download/v#{version}/MacTemp.dmg"
   name "MacTemp"
